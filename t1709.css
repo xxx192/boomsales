@@ -1,0 +1,345 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 300vh;
+    flex-direction: column;
+}
+.w1{
+    width: 100%;
+    height: 100vh;
+    background-image: url("gla1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.p{
+    width: 100%;
+    height: 7vh;
+    font-size: 15vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(114, 114, 114);
+    text-align: center;
+}
+.p1{
+    font-size: 5vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: aliceblue;
+    margin: 2vh;
+}
+.p2{
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.p3{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: aliceblue;
+}
+.p4{
+    font-size:3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.p5{
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+.p6{
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(100, 100, 100);
+    margin-left: 3vh;
+    margin-top: 1vh;
+    text-align: center;
+}
+.p7{
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    color: rgb(100, 100, 100);
+    margin-left: 3vh;
+    margin-top: 1vh;
+}
+.w2{
+    width: 100%;
+    height: 105vh;
+    background-color: rgb(0, 0, 0);
+}
+.button{
+    background-color:rgb(62, 95, 71);
+    width: 25vh;
+    height: 6vh;
+    margin: 3vh;
+    border:  2px solid white;
+}
+.button:hover{
+    background: transparent;
+	color: white;
+}
+.b1{
+    margin-left: 20vh;
+}
+.u{
+    width:80%;
+    height: 60vh;
+    align-items: center;
+    border-radius: 15px;
+}
+.us2{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color:rgb(62, 95, 71);
+    flex-direction: row;
+}
+.u1{
+    width:45%;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: 10vh;
+    margin-left: 10vh;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+.w4{
+    display: flex;
+    width: 100%;
+    height: 65vh;
+    background-color:rgb(230, 230, 230);
+    flex-direction: column;
+}
+.b2{
+    width: 8.5vh;
+    height: 8.5vh;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.b3{
+    width: 10vh;
+    height: 10vh;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.w5{
+    display: flex;
+    width: 100%;
+    height: 25vh;
+    background-color:rgb(230, 230, 230);
+    flex-direction: column;
+}
+.f1{
+    font-size: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(163, 163, 163);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.f2{
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(28, 29, 29);
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.a{
+    text-decoration: dotted;
+}
+.b4{
+    width: 33%;
+    height: 6vh;
+    background-color: rgb(28,28,28,0);
+    margin: 5px;
+    border: none;
+}
+.b4:hover{
+    background: white;
+	color: white;
+}
+.wo1{
+    display:flex;
+    width: 100%;
+    height: 5vh;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.p61{
+    width: 40%;
+    height: 5vh;
+}
+.p62{
+    width: 30%;
+    height: 3vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+}
+.wo3{
+    width: 100%;
+    height: 50vh;
+}
+.png1{
+    width: 100%;
+    height: 62vh;
+}
+.png2{
+    width: 100%;
+    height: 25vh;
+}
+.us{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-color: black;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+.but1{
+    width:3%;
+    height: 6vh;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 25vh;
+    margin-left: 30vh;
+    margin-right: 2vh;
+    background-color: rgb(28,28,28,0);
+    border-color: aliceblue;
+}
+.but2{
+    width:3%;
+    height: 6vh;
+    border-radius: 50%;
+    align-items: center;
+    margin-top: 25vh;
+    margin-right: 30vh;
+    margin-left: 2vh;
+    background-color: rgb(28,28,28,0);
+    border-color: aliceblue;
+}
+.d{
+    font-size: 2vh;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+}
+.w3{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    flex-direction: column;
+}
+.us1{
+    width: 100%;
+    height: 20vh;
+}
+.pl1{
+    width: 0.3%;
+    height: 56vh;
+    margin-left: 4vh;
+    margin-top: 8vh;
+}
+.r1{
+    font-size: 16px;
+    font-family: 'RomanT';
+    line-height: 3;
+    text-align: left;
+    color: rgb(218, 213, 207);
+    margin-left: 2vh;
+    margin-top: 12vh;
+}
+.r2{
+    font-size: 4vh;
+    font-family: 'Schadow BT';
+    text-align: left;
+    color: rgb(48, 46, 45);
+    margin-left: 4vh;
+    margin-top: 5vh;
+}
+.w30{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(129, 160, 123);
+    flex-direction: column;
+}
+.er1{
+    display: flex;
+    width:100%;
+    height: 75vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.er1 div{
+    width: 33%;
+    height: 50%;
+}
+
+.i{
+    width: 19%;
+    height: 11vh;
+    margin-left: 26vh;
+}
+.e1{
+    font-size: 13pt;
+    font-family: 'Schadow BT';
+    text-align: center;
+    color: rgb(204, 221, 194);
+    margin-left: 2vh;
+}
+.eb1{
+    font-size: 20pt;
+    font-family: 'Schadow BT';
+    text-align: center;
+    color: rgb(89, 100, 83);
+}
+.x{
+    font-size: 20pt;
+    font-family: 'Schadow BT';
+    text-align: left;
+    color: rgb(69, 71, 68);
+}
+.x2{
+    font-size: 13pt;
+    font-family: 'Schadow BT';
+    text-align: left;
+    color: rgb(116, 117, 116);
+}
+.d1{
+    display:flex;
+    width: 100%;
+    height: 10vh;
+    flex-direction: row;
+}
+.d2{
+    display:flex;
+    width: 100%;
+    height: 35vh;
+    flex-direction: row;
+}
+.dr1{
+    width: 20%;
+    height: 35vh;
+    margin-left: 5vh;
+}
+.dr2{
+    width: 18%;
+    height: 10vh;
+    margin-left: 5vh;
+}
+.dr3{
+    display: flex;
+    width: 18%;
+    height: 10vh;
+    margin-left: 5vh;
+    flex-direction: column;
+}
+.ut{
+    width: 9%;
+    height: 3vh;
+}
